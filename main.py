@@ -46,7 +46,7 @@ print("R2 Score:", r2)
 
 plt.scatter(range(len(Y_test)), Y_test, label = "Actual Grades", color = "red")
 plt.scatter(range(len(Y_pred)), Y_pred, label = "Predicted Grades", color = "blue")
-plt.xlabel("Actual Grade")
+plt.xlabel("Index")
 plt.ylabel("Predicted Grade")
 plt.legend()
 plt.grid(alpha = 0.4)
